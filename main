@@ -1,0 +1,8 @@
+import urllib.request
+#input section
+alinan = input("Please paste the URL of the photo you want to download.")
+alinan2 = input("Please write the name you want to give the picture.")
+alinan3 = input("Please enter the format of the picture with a dot at the beginning.(example .jpg)")
+url = alinan
+
+urllib.request.urlretrieve(url,alinan2 + alinan3)
